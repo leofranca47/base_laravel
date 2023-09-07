@@ -31,7 +31,7 @@ jobs:
     - name: instalando npm
       run: npm install
     - name: gerando assets
-      run: npm run dev
+      run: npm run build
     - name: Execute tests (Unit and Feature tests) via PEST
       env:
         DB_CONNECTION: sqlite
